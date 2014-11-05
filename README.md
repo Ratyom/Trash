@@ -5,4 +5,5 @@ This is RIP for my next projects. What would i do? Let's check:
      - Relax after relax
      - Do nothing
      - Cry for bad life
+     - Live a bit
      - Die
