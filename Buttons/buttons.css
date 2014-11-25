@@ -1,5 +1,15 @@
-a {
+.button1 {
   background-color: green;
+  color: white;
+  font-size: 12pt;
+}
+.button2 {
+  background-color: yellow;
+  color: white;
+  font-size: 12pt;
+}
+.button3 {
+  background-color: red;
   color: white;
   font-size: 12pt;
 }
