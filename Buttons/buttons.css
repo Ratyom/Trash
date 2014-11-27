@@ -1,7 +1,10 @@
 .button1 {
   background-color: green;
+  font-size: 14pt;
   color: white;
-  font-size: 12pt;
+  text-decoration: none;  
+  border-radius: 3px;
+  padding: 6px 12px 6px 12px;
 }
 .button2 {
   background-color: yellow;
