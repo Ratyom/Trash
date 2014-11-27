@@ -1,31 +1,24 @@
 body{
   text-align: center;
-  padding: 200px;
+  padding: 100px;
 }
-.button1 {
-  background-color: #00aa00;
+.button {
   font-size: 14pt;
   color: white;
   text-decoration: none;  
   border-radius: 5px;
   padding: 6px 12px 6px 12px;
+}
+.success {
+  background-color: #00aa00;
   border: #008800 solid 2px;
 }
-.button2 {
+.warning {
   border: #dc8800 solid 2px;
   background-color: #eeaa00;
-  font-size: 14pt;
-  color: white;
-  text-decoration: none;  
-  border-radius: 5px;
-  padding: 6px 12px 6px 12px;
 }
-.button3 {
+.danger {
   border: #880000 solid 2px;
   background-color: #aa0000;
-  font-size: 14pt;
-  color: white;
-  text-decoration: none;  
-  border-radius: 5px;
-  padding: 6px 12px 6px 12px;
 }
+
