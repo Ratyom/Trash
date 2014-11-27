@@ -21,4 +21,27 @@ body{
   border: #880000 solid 2px;
   background-color: #aa0000;
 }
-
+.success:hover{
+  background-color: #00bb00;
+  border: #008800 solid 2px;  
+}
+.warning:hover {
+  border: #dc8800 solid 2px;
+  background-color: #ffbb00;
+}
+.danger:hover {
+  border: #880000 solid 2px;
+  background-color: #bb0000;
+}
+.success:active{
+  background-color: #009900;
+  border: #008800 solid 2px;  
+}
+.warning:active {
+  border: #dc8800 solid 2px;
+  background-color: #dd9900;
+}
+.danger:active {
+  border: #880000 solid 2px;
+  background-color: #990000;
+}
