@@ -39,7 +39,6 @@ def insert_sort(array):
 	return array
 
 #check
-for item in simple:
-    check(reference,insert_sort(item))
-    check(reference,bubble_sort(item))
-
+for i in range(len(simple)):
+    check(reference[i],insert_sort(simple[i]))
+    check(reference[i],bubble_sort(simple[i]))
