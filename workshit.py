@@ -5,14 +5,15 @@ A2 = []
 A3 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 A4 = [-5,-4,-3,-2,-1,0,1,2,3,4,5,78,123,435]
 
+simple=(A1,A2,A3,A4)
 reference=(sorted(A1),sorted(A2),sorted(A3),sorted(A4))
 
 #check func
 
 def check(x,y):
     if not x==y:
-        return 'You failed'
-    return 'You win'
+        print ('You failed')
+    print ('You win')
 
 #function bubble_sort
 
@@ -37,10 +38,8 @@ def insert_sort(array):
 		array[i+1]=key
 	return array
 
-#handle sort
-B=(insert_sort(A1),insert_sort(A2),insert_sort(A3),insert_sort(A4))
-C=(bubble_sort(A1),bubble_sort(A2),bubble_sort(A3),bubble_sort(A4))
-
 #check
-print (check(reference,B))
-print (check(reference,C))
+for item in simple:
+    check(reference,insert_sort(item))
+    check(reference,bubble_sort(item))
+
